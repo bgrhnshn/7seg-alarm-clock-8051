@@ -1,3 +1,5 @@
+7-Segment Alarm Clock with 8051 (Proteus)
+
 Main fonksiyonunda seri portu (11.059MHz ve 9600 baud rate) ve seri port için timer 0’ı; saat için timer 1’i (2^16=65.536, 65.536-50.000 ise 50 mikro saniye için) ve timer aktifleştirilmesi (16 bit mod kullandığımız için 8 bitlik ilk kısmı high (/256), 8 bitlik son kısmı low (%256)) ve interrupt aktifleştirilmelerini yaptık.
 
 While kısmında ise alarmımızı kurduk. Alarma izin verildiği takdirde (yani alarm kurulduğunda) sürekli saati kontrol edip, doğruysa bir dakika boyunca alarmı çalıp sonra kapatıyor.
